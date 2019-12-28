@@ -1,0 +1,280 @@
+body
+{
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+nav
+{
+	text-transform: uppercase;	
+	font-size: 14px;
+    padding-top: 5px;
+    height: 60px;
+    box-shadow: 0 1px 5px 0 rgba(96, 96, 96, 0.3);
+    transition: height 0.6s;
+}
+ul li
+{
+	float: left;
+	list-style: none;
+	padding: 15px 18px;
+}
+nav ul li a
+{
+	text-decoration: none;
+	color: #444444;
+}
+nav > img
+{
+	display: block;
+	padding: 0 0;
+}
+.top-banner
+{
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 200, 0.1)), url(../img/feature_bg.jpg) no-repeat center center;
+    background-size: cover;
+    height: 600px;
+}
+.app-sub-content
+{
+	padding:200px 0 0 0;
+}
+h1.wow
+{
+	font-size: 64px;
+	font-weight: 800;
+}
+.app-sub-content p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+input.mail
+{
+	background-color: #F9F9F9;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    height: 40px;
+    padding: 0 150px 0 20px;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    transition: all .3s;
+}
+input.submit-button
+{
+	border:none;
+	font-size: 0.9em;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 0 5px 5px 0;
+    margin: 0;
+    padding: 0 25px 0 25px;
+    border-color: #5924EC;
+    background-color: #5924EC;
+    color: #FFFFFF;
+    box-shadow: 0 0 1px transparent;
+    outline: none;
+}
+.services-content h1 {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #111111;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.services-content
+{
+	padding: 100px 0 0 0;
+}
+.services-content p {
+	font-family: sans-serif;
+    color: #444444;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    text-align:center;
+}
+.services {
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 10	0px;
+}
+.services .services-icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: transparent;
+    background: #F6F6F6;
+    margin: 0 auto;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.services .services-icon img {
+    position: absolute;
+    top: 10%;
+    left: 11%;
+    font-size: 42px;
+}
+.services .col-md-4:hover .services-icon 
+{
+	border-color: #5924EC;
+}
+.services .services-description h1 {
+	text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #111111;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.services .services-description p {
+	text-align: center;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #444444;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-top: 0;
+}
+.feature
+{
+	background: #F3F3F3;
+}
+.feature h2 {
+    font-family: sans-serif;
+    font-size: 34px;
+    color: #111111;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.feature p {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #111111;
+    line-height: 1.4;
+    margin: 20px 0 20px 0;
+}
+.feature li i
+{
+	margin-right: 10px;
+}
+.feature li {
+    font-family: sans-serif; 
+    font-size: 14px; 
+    color: #111111; 
+    float: left;
+    line-height: 2;
+    min-width: 100%;
+    left: 0;
+    padding:0;
+    text-align: left;
+    list-style: none;
+}
+.feature-btn
+{
+	border:none;
+	text-transform: uppercase;
+	background: #5924EC;
+	border: 2px solid #5924EC;
+    height: 38px;
+    padding: 0 24px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 12px;
+   	letter-spacing: 2px;
+    line-height: 3;
+    transition: 200ms;
+    margin-top: 20px;
+}
+.container .feature-counter
+{
+	width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: #FFFFFF;
+}
+.container .feature-counter h1
+{
+	font-family: sans-serif;
+	padding:100px;
+	text-transform: uppercase;
+	font-weight: 700!important;
+}
+.row.feature-counter
+{
+	font-family: sans-serif;
+	margin: 100px 100px;
+}
+.cloud-icon
+{
+	text-align: center;
+	padding: 10px;
+}
+.cloud-icon i
+{
+	font-size: 42px;
+    color: #5924EC;
+}
+.download
+{
+	text-align: center;
+}
+.font-h2
+{
+	font-size: 34px;
+}
+.download span
+{
+	font-size: 18px;
+	font-weight: 400!important;
+	color: black;
+}
+.feature-computer
+{
+	padding-top: 100px;
+    padding-bottom: 100px;
+    background: #F3F3F3;
+}
+.feature-computer .container
+{
+	text-align: center;
+}
+.blog-feature .col-md-4
+{
+	text-align: center;
+}
+.blog-feature .col-md-4 h1 {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0.5em;
+    color: #232323;
+}
+.blog-feature .col-md-4 p {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0.5em;
+    color: #606060;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+.feature-content
+{
+	background-color: #F3F3F3;
+}
