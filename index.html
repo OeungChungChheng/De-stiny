@@ -3,59 +3,53 @@
 <head>
 	<title>Destiny</title>
 	<link rel="stylesheet" type="text/css" href="./asset/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script type="text/javascript" src="./asset/js/index.js"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
-<!---Navigation Menus-->
-	<div class="container-fluid banner" id="banner">
-		<nav class="top-menu">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-5 top-logo">
-						<img src="./asset/img/logo.png" width="35" height="35">
-					</div>
-					<div class="col-md-7">
-						<ul>
-							<li><a href="">Home</a></li>
-							<li><a href="">Services</a></li>
-							<li><a href="#feature">Feature</a></li>
-							<li><a href="#review">Reviews</a></li>
-							<li><a href="#">Pricing</a></li>
-							<li><a href="">Contact</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
+	<!---Navigation Menus-->
+	<div class="container-fluid banner" id="banner" > 
+<!-- Navigation -->
+		<nav class="navbar navbar-expand-lg static-top top-menu">
+		    <div class="container">
+		      <a class="navbar-brand img-logo" href="#"><img src="./asset/img/logo.png" width="50" height="50"></a>
+		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+		        <span class="navbar-toggler-icon"></span>
+		      </button>
+		      	<div class="collapse navbar-collapse" id="navbarResponsive">
+			        <ul class="navbar-nav ml-auto">
+				          <li class="nav-item active">
+				            <a class="nav-link" href="	">Home
+				              <span class="sr-only">(current)</span>
+				            </a>
+				          </li>
+				          <li class="nav-item">
+				            <a class="nav-link" href="#servies">Service</a>
+				          </li>
+				          <li class="nav-item">
+				            <a class="nav-link" href="#feature">Features</a>
+				          </li>
+				          <li class="nav-item">
+				            <a class="nav-link" href="#review">Reviews</a>
+				          </li>
+				          <li class="nav-item">
+				            <a class="nav-link" href="">Pricing</a>
+				          </li>
+				          <li class="nav-item">
+				            <a class="nav-link" href="contact.html">Contact</a>
+				          </li>
+			        </ul>
+		      	</div><!---collapse-->
+		    </div><!----container-->
 		</nav>
-		<!---main-->
-				<div class="container-fluid top-banner">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-7 col-sm-7">
-								<div class="app-sub-content">
-					              <h1 class="wow fadeInLeft" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeInLeft;">Destiny for your everyday.</h1>
-					              <p class="wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
-					                Receive an invite and get your smart watch first before everyone <br class="hidden-xs"> does. Subscribe now.
-					              </p>
-					              <div class="form wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
-					              <form class="subscribe-form wow zoomIn animated" action="assets/php/subscribe.php" method="post" accept-charset="UTF-8" enctype="application/x-www-form-urlencoded" autocomplete="off" novalidate="" style="visibility: visible;">
-					              <input class="mail" type="email" name="email" placeholder="Join the wait list" autocomplete="off"><input class="submit-button" type="submit" value="Subscribe">
-					              </form>
-					              <div class="success-message"></div>
-					      			  <div class="error-message"></div>
-					              </div>
-					            </div>	
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+	</div><!---banner-->
 	
+
 <!--Blog 2-->
-	<div class="container-fluid" id="servies">
+	<div class="container-fluid animated animatedFadeInUp fadeInUp" id="servies">
 		<div class="container">
 			<div class="row" >
 				<div class="col-md-7" style="margin:auto;">
@@ -109,13 +103,13 @@
 		</div>
 	</div>
 <!---Feature Blog-->
-	<div class="container-fluid feature" id="feature">
-		<div class="container" style="margin:auto;padding-top: 200px;padding-bottom: 200px;">
+	<div class="container-fluid feature animated animatedFadeInUp fadeInUp" id="feature">
+		<div class="container" style="margin:auto;padding-top: 100px;padding-bottom: 100px;">
 			<div class="row">
-				<div class="col-md-6 feature-img">
+				<div class="col-md-6">
 					<img src="./asset/img/1.png">
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6" id="content-feature">
 					<h2>Designed for Startups &amp; brands.</h2>
 					<p>
 	                Just get the code and sit tight, you will witness its power and performance in lead generations.
@@ -129,7 +123,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid">
+	<div class="container-fluid animated animatedFadeInUp fadeInUp text-center" id="content-feature-counter">
 			<div class="row feature-counter">
 				<div class="col-md-3 text-center">
 					<div class="align">
@@ -179,12 +173,12 @@
 				</div>	
 			</div><!--row-->
 	</div>
-	<div class="container-fluid feature-computer">
+	<div class="container-fluid feature-computer animated animatedFadeInUp fadeInUp">
 		<div class="container">
 			<img src="./asset/img/big_feature.png">
 		</div>
 	</div>
-	<div class="container-fluid  feature-content">
+	<div class="container-fluid  feature-content animated animatedFadeInUp fadeInUp">
 		<div class="container">
 			<div class="row blog-feature">
 				<div class="col-md-4">
@@ -206,7 +200,7 @@
 		</div>
 	</div>
 <!---Review-->
-	<div class="container-fluid review" id="review">
+	<div class="container-fluid review animated" id="review">
 			<div class="slideshow-container" style="text-align: center;">
 				<div class="mySlides fade">
 			  		<img src="./asset/img/testimonial1.jpg" style="width:80px;height: 80px;border-radius: 50%;">
@@ -269,7 +263,7 @@
 
 	</div>
 <!----PRicing-->
-	<div class="container-fluid pricing">
+	<div class="container-fluid pricing animated animatedFadeInUp fadeInUp">
 		<div class="container">
 			<div class="col-md-12 text-center">
 				<div class="logo-app">
@@ -292,7 +286,7 @@
 			</div>
 		</div>
 	</div>
-	<footer class="container-fluid">
+	<footer class="container-fluid animated animatedFadeInUp fadeInUp">
 		<div class="container text-center">
 			<div class="col-md-12 content-footer">
 				<img src="./asset/img/logo.png">
@@ -326,23 +320,52 @@
 		  }
 		    slides[slideIndex-1].style.display = "block";  
 		    dots[slideIndex-1].className += " active";
-		    setTimeout(showSlides, 2000); // Change image every 2 seconds
+		    setTimeout(showSlides, 3000); // Change image every 3 seconds
 		}
 	</script>
-
+<!---counter number-->
 	<script type="text/javascript">
-   $('.stat-number').each(function () {
-   var size = $(this).text().split(".")[1] ? $(this).text().split(".")[1].length : 0;
-   $(this).prop('Counter', 0).animate({
-      Counter: $(this).text()
-   }, {
-      duration: 5000,
-      step: function (func) {
-         $(this).text(parseFloat(func).toFixed(size));
-	      }
-	   });
-	});
+	   $('.stat-number').each(function () {
+	   var size = $(this).text().split(".")[1] ? $(this).text().split(".")[1].length : 0;
+	   $(this).prop('Counter', 0).animate({
+	      Counter: $(this).text()
+	   }, {
+	      duration: 5000,
+	      step: function (func) {
+	         $(this).text(parseFloat(func).toFixed(size));
+		      }
+		   });
+		});
 	</script>
+<!----fixed Navigation-->
+	<script>
+		/*$(window).scroll(function(){
+		    if ($(window).scrollTop() >= 300) {
+		        $('nav').addClass('fixed-header');
+		        $('nav div').addClass('visible-title');
+		    }
+		    else {
+		        $('nav').removeClass('fixed-header');
+		        $('nav div').removeClass('visible-title');
+		    }
+		});*/
+		$(document).ready(function(){
+		  $(window).scroll(function(){
+		  	var scroll = $(window).scrollTop();
+			  if (scroll > 100) {
+			    $(".navbar").css("background" , "white");
+			    $(".navbar").css("position","fixed");
+			    $(".navbar").addClass("active");
+			  }
 
-
+			  else{
+				  $(".navbar").css("background" , "none");		   
+				  $(".navbar").removeClass("active"); 	
+			  }
+		  })
+		})
+	</script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="asset/jquery/jquery.slim.min.js"></script>
+  <script src="asset/bootstrap/js/bootstrap.bundle.min.js"></script>
 </html>

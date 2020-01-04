@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./asset/css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top top-menu">
+	    <div class="container">
+	      <a class="navbar-brand img-logo" href="#"><img src="./asset/img/logo.png" width="50" height="50"></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon"></span>
+	      </button>
+	      <div class="collapse navbar-collapse" id="navbarResponsive">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active">
+	            <a class="nav-link" href="	">Home
+	              <span class="sr-only">(current)</span>
+	            </a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="#servies">Service</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="#feature">Features</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="#review">Reviews</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="">Pricing</a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="contact.html">Contact</a>
+	          </li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	<div class="contact-section">
+      <div class="container">
+        <div class="col-md-9">
+          <h1>Contact page - Connects us.</h1>
+          <p>
+            We know you've come here to talk to us. Just ask us and we'll reply <br class="hidden-xs"> with in 24 hours unless it is weekend.
+          </p>
+          <div class="contact-form">
+            <form id="contact-form" method="post" action="assets/php/contact.php" role="form" novalidate="true">
+              <div class="messages"></div>
+              <div class="controls">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="form_name">Firstname *</label>
+                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group has-error has-danger">
+                          <label for="form_lastname">Lastname *</label>
+                          <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="form_email">Email *</label>
+                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="form_phone">Phone</label>
+                          <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="form-group has-error has-danger">
+                          <label for="form_message">Message *</label>
+                          <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                      </div>
+                  </div>
+                  <div class="col-md-12">
+                      <button type="submit" class="btn btn-send disabled">Send Message</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+<footer class="container-fluid">
+		<div class="container text-center">
+			<div class="col-md-12 content-footer">
+				<img src="./asset/img/logo.png">
+				<ul class="container">
+					<a href="">Home</a>
+					<a href="">About</a>
+					<a href="#feature">Feature</a>
+					<a href="">Pricy</a>
+				</ul>
+			</div>
+			<div class="text-footer">
+				<span>Copyright © 2016 Destiny Inc. All Rights Reserved.</span>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
